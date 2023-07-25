@@ -91,7 +91,7 @@ export default function Login() {
                     <Avatar className='mb-2' sx={{ m: 0, }} src={logo} variant="rounded" >
                     </Avatar>
                     <Typography component="h1" variant="h5">
-                        ระบบจัดการใบอนุญาติ (License Management)
+                        ระบบจัดการจุดเข้าปฎิบัติงาน (CheckIn Management)
                     </Typography>
                     <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
                         <TextField

@@ -4,7 +4,7 @@ const initialState = {
     empcode:''
 }
 
-const IndexReducer = (state = initialState, action:any) => {
+const MainReducer = (state = initialState, action:any) => {
     switch (action.type) {
         case 'LOGIN':
             return {
@@ -15,4 +15,4 @@ const IndexReducer = (state = initialState, action:any) => {
             return state
     }
 }
-export default IndexReducer;
+export default MainReducer;
